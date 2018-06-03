@@ -42,6 +42,16 @@ abstract class ClassCache
     }
 
     /**
+     *  use when needs to release memory,
+     *  avoid side effects unintended behavior
+     *  ex)Batch processing
+     */
+    static function clearAll()
+    {
+        self::$m_cache = [];
+    }
+
+    /**
      * @param mixed $key
      * @return string
      */
