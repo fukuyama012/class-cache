@@ -12,3 +12,8 @@ PHP 5.4 +
 ## Install
 Download ClassCache.php file and require.  
 Extends ClassCache in target class that executes the acquisition process
+
+## Usage
+Check the sample scripts.  
+* ClassSample.php  
+* sample.php
